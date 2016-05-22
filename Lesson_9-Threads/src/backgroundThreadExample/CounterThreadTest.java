@@ -1,4 +1,4 @@
-package targil;
+package backgroundThreadExample;
 
 import java.util.Scanner;
 
