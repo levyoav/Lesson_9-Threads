@@ -1,4 +1,4 @@
-package com.jbt.f;
+package waitNotifyExample;
 
 public class Consumer extends Thread {
 
@@ -8,7 +8,7 @@ public class Consumer extends Thread {
 		super(name);
 		this.stack = stack;
 	}
-	
+
 	@Override
 	public void run() {
 		for (int i = 0; i < 10; i++) {
